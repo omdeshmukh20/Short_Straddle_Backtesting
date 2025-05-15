@@ -25,13 +25,13 @@ This project implements an intraday short straddle backtesting engine for NIFTY 
 ```
 project/
 │
-├── data/
-│   └── APR_2021/                  # Folder with input CSV option data files
+├── Options data/
+│   └── APR_2021/                                                 # Folder with input CSV option data files
 │
-├── ShortStraddle_Backtest.py     # Main backtest script
-├── ShortStraddle_Trades_*.csv    # Exported trade-level results
-├── ShortStraddle_Daily_*.csv     # Exported daily capital and PnL
-└── README.md                     # This file
+├── Short - Straddle Without TP.ipynb                             # Main backtest script
+├── ShortStraddle_Daily_2021-04-01_to_2021-04-30.csv              # Exported trade-level results
+├── ShortStraddle_Trades_2021-04-01_to_2021-04-30.csv             # Exported daily capital and PnL
+└── README.md                                                     # This file
 ```
 
 ---
@@ -75,7 +75,7 @@ After execution, two CSVs are generated:
 
 ---
 
-## 🧮 Performance Metrics (Sample)
+## 🧮 Performance Metrics
 
 ```
 ==== Performance Summary ====
